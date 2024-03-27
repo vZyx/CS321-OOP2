@@ -3,7 +3,7 @@ package staffmemberstest;
 public class Engineer extends StaffMember
 {
 
-    private double basicSalary;
+    private final double basicSalary;
     public Engineer(double salary, String name, int ID, int recruitmentYear) {
         super(name, ID, recruitmentYear);
         basicSalary=salary;

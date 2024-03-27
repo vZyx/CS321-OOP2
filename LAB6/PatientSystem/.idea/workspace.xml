@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c18ab83-2ceb-43c1-9263-dd0f4c7d877a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../LAB3/LAB3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB4/LAB4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB4/src/BankSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB4/src/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB4/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/LAB5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_using_GUI designer/src/myframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LAB5/src/Calculator_without_using_GUiI_Desihner/src/myframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/patientsystem/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/patientsystem/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/patientsystem/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/PatientSystem-updated/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CS321-OOP2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CS321-OOP2.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2dP1RKsmxay1JdcPbX1q0o8T4gI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/JDK"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../../JDK" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c18ab83-2ceb-43c1-9263-dd0f4c7d877a" name="Changes" comment="" />
+      <created>1709894889151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709894889151</updated>
+    </task>
+    <servers />
+  </component>
+</project>
