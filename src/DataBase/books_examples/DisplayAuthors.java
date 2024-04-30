@@ -1,5 +1,5 @@
 package DataBase.books_examples;
-//DisplayAuthors.java
+//24.23 DisplayAuthors.java
 //Displaying the contents of the Authors table.
 import java.sql.Connection;
 import java.sql.Statement;
@@ -48,8 +48,5 @@ public class DisplayAuthors {
         {
             sqlException.printStackTrace();
         }
-
-
-
 
 }}

@@ -35,24 +35,19 @@ public class JFileChooserDemo extends JFrame
          // gather file (or directory) information
          StringBuilder builder = new StringBuilder();
          builder.append(String.format("%s:%n", path.getFileName()));
-      	builder.append(String.format("%s a directory%n", 
-      		Files.isDirectory(path) ? "Is" : "Is not"));
-      	builder.append(String.format("%s an absolute path%n", 
-      		path.isAbsolute() ? "Is" : "Is not"));
-      	builder.append(String.format("Last modified: %s%n", 
-      		Files.getLastModifiedTime(path)));
+      	builder.append(String.format("%s a directory%n", Files.isDirectory(path) ? "Is" : "Is not"));
+      	builder.append(String.format("%s an absolute path%n", path.isAbsolute() ? "Is" : "Is not"));
+      	builder.append(String.format("Last modified: %s%n", Files.getLastModifiedTime(path)));
       	builder.append(String.format("Size: %s%n", Files.size(path)));
       	builder.append(String.format("Path: %s%n", path));
-      	builder.append(String.format("Absolute path: %s%n", 
-            path.toAbsolutePath()));
+      	builder.append(String.format("Absolute path: %s%n", path.toAbsolutePath()));
 
          if (Files.isDirectory(path)) // output directory listing
          {
             builder.append(String.format("%nDirectory contents:%n"));
             
             // object for iterating through a directory's contents
-            DirectoryStream<Path> directoryStream = 
-               Files.newDirectoryStream(path);
+            DirectoryStream<Path> directoryStream = Files.newDirectoryStream(path);
    
             for (Path p : directoryStream)
                builder.append(String.format("%s%n", p));
@@ -62,8 +57,7 @@ public class JFileChooserDemo extends JFrame
       } 
       else // Path does not exist
       {
-         JOptionPane.showMessageDialog(this, path.getFileName() +
-            " does not exist.", "ERROR", JOptionPane.ERROR_MESSAGE);
+         JOptionPane.showMessageDialog(this, path.getFileName() + " does not exist.", "ERROR", JOptionPane.ERROR_MESSAGE);
       }   
    } // end method analyzePath
 
@@ -72,8 +66,7 @@ public class JFileChooserDemo extends JFrame
    {
       // configure dialog allowing selection of a file or directory
       JFileChooser fileChooser = new JFileChooser();
-      fileChooser.setFileSelectionMode(
-         JFileChooser.FILES_AND_DIRECTORIES);
+      fileChooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
       int result = fileChooser.showOpenDialog(this);
 
       // if user clicked Cancel button on dialog, return
@@ -82,20 +75,16 @@ public class JFileChooserDemo extends JFrame
 
       // return Path representing the selected file
       return fileChooser.getSelectedFile().toPath();
-   } 
-} // end class JFileChooserDemo
+   }
 
-/*************************************************************************
-* (C) Copyright 1992-2014 by Deitel & Associates, Inc. and               *
-* Pearson Education, Inc. All Rights Reserved.                           *
-*                                                                        *
-* DISCLAIMER: The authors and publisher of this book have used their     *
-* best efforts in preparing the book. These efforts include the          *
-* development, research, and testing of the theories and programs        *
-* to determine their effectiveness. The authors and publisher make       *
-* no warranty of any kind, expressed or implied, with regard to these    *
-* programs or to the documentation contained in these books. The authors *
-* and publisher shall not be liable in any event for incidental or       *
-* consequential damages in connection with, or arising out of, the       *
-* furnishing, performance, or use of these programs.                     *
-*************************************************************************/
+   // Fig. 15.13: Tests class JFileChooserDemo.
+   public static void main(String[] args) throws IOException
+   {
+      JFileChooserDemo application = new JFileChooserDemo();
+      application.setSize(400, 400);
+      application.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+      application.setVisible(true);
+   }
+
+
+} // end class JFileChooserDemo

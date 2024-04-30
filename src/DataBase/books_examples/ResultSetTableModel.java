@@ -34,12 +34,6 @@ public class ResultSetTableModel extends AbstractTableModel
 
         // create Statement to query database
         statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-        /*
-        TYPE_SCROLL_INSENSITIVE Specifies that a ResultSet’s cursor can scroll in either direction and that the changes made to the underlying data during
-        ResultSet processing are not reflected in the ResultSet unless the program queries the database again.
-
-        CONCUR_READ_ONLY Specifies that a ResultSet can’t be updated—changes to the ResultSet contents cannot be reflected in the database with ResultSet’s update methods.
-        */
 
         // update database connection status
         connectedToDatabase = true;

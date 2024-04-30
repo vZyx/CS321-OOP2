@@ -26,22 +26,18 @@ public class PersonQueries
    {
       try 
       {
-         connection = 
-            DriverManager.getConnection(URL, USERNAME, PASSWORD);
+         connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
          // create query that selects all entries in the AddressBook
-         selectAllPeople = 
-            connection.prepareStatement("SELECT * FROM Addresses");
+         selectAllPeople = connection.prepareStatement("SELECT * FROM Addresses");
          
          // create query that selects entries with a specific last name
-         selectPeopleByLastName = connection.prepareStatement(
-            "SELECT * FROM Addresses WHERE LastName = ?");
+         selectPeopleByLastName = connection.prepareStatement("SELECT * FROM Addresses WHERE LastName = ?");
          
          // create insert that adds a new entry into the database
-         insertNewPerson = connection.prepareStatement(
-            "INSERT INTO Addresses " + 
-            "(FirstName, LastName, Email, PhoneNumber) " + 
-            "VALUES (?, ?, ?, ?)");
+         insertNewPerson = connection.prepareStatement("INSERT INTO Addresses " +
+                 "(FirstName, LastName, Email, PhoneNumber) " +
+                 "VALUES (?, ?, ?, ?)");
       }
       catch (SQLException sqlException)
       {
